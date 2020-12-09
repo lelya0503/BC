@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="head">
+        <div class="blue">
+            <h1 class="head-text">Крупнейший поставщик целлюлозно-бумажной продукции в России и странах СНГ
+            </h1>
+            <div class="search">
+                <input type="search" class="search-field" placeholder="Например, офсетная бумага">
+                <img src="img/icon_search_12272.png" alt="" class="search-icon">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <header>
+            <div class="main-head">
+                <div class="logo bounceInDown">
+                    <a href="index.html" class="index">
+                        <img src="img/BCL.svg" alt="logo" class="bcl">
+                        <img src="img/BC.svg" alt="logo" class="bclbc">
+                    </a>
+                </div>
+                <div class="main-menu">
+                    <div class="contacts" id="contacts">
+                        <div class="main-contacts">
+                            <div class="address bounceInDown">
+                                <p>СПб, ул.Подковырова, д.16/65</p>
+                            </div>
+                            <div class="phone">
+                                <a href="tel:+78002220438" class="numberlink bounceInDown delay"><p class="number">8 (800) 222-04-38</p></a>
+                                <a href="tel:+78123202870" class="numberlink bounceInDown delay1"><p class="number">+7 (812) 320-28-70</p></a>
+                                <div class="mail bounceInDown delay2">
+                                    <img src="img/Group%2064.png" alt="mail" class="mail-icon">
+                                    <a href="mailto:marketing@baltcell.spb.ru" class="mail-text">Написать письмо</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="searchby bounceInDown delay3">  
+                            <img src="img/icon_search_12272.png" alt="search" class="loupe">
+                            <p class="search-text">поиск по сфере применения и типу печати</p>          
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <input type="checkbox" id="checkbox" class="mobile-menu__checkbox" onclick="viewdiv('contacts');">
+                        <label for="checkbox" class="mobile-menu__btn">
+                            <div class="mobile-menu__icon"></div>
+                        </label>
+                        <div class="menu-links">
+                            <a href="catalog.html" class="menu-link first">каталог</a>
+                            <a href="#" class="menu-link">о компании</a>
+                            <a href="#" class="menu-link">новости</a>
+                            <a href="#" class="menu-link">партнеры</a>
+                            <a href="#" class="menu-link">склады</a>
+                            <a href="#" class="menu-link">полезное</a>
+                            <a href="#" class="menu-link last">контакты</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bckg bounceInDown">
+                <img src="img/Group%2047.svg" alt="logo" class="bckg-logo">
+                <p class="bckg-text">Большой ассортимент как конкурентное преимущество</p>
+            </div>
+            <div class="caution">
+                <a href="#" class="caution-link">
+                    <span class="caution-btn">осторожно, мошенники</span>
+                </a>
+            </div>
+        </header>
+        <main>
+            <div class="main">
+                <div class="info">
+                    <div class="dropdown">
+                        <button class="info-catalog" onclick="myFunction()">
+                            <img src="img/Group%2097.svg" alt="catalog" class="info-catalog-img">
+                            <p class="info-catalog-text">каталог</p>
+                            <img src="img/Path%202.svg" alt="" class="info-catalog-img2" id="rotate">
+                        </button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <div id="dd" class="wrapper-dropdown-1">
+                                <a href="#">Полиграфические виды бумаг</a>
+                                <ul class="dropdownlink">
+                                    <li><a href="#">Газетная бумага</a></li>
+                                    <li><a href="#">Офсетная бумага в листах</a></li>
+                                    <li><a href="#">Мелованная бумага</a></li>
+                                    <li><a href="#">Книжная бумага</a></li>
+                                    <li><a href="#">Бумаги для рисования</a></li>
+                                    <li><a href="#">Офсетная бумага в ролях</a></li>
+                                    <li><a href="#">Легкомелованная бумага</a></li>
+                                    <li><a href="#">Суперкаландрированная бумага</a></li>
+                                    <li><a href="#">Типографская бумага</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <a href="#">Цветная бумага</a>
+                            </div>
+                            <div id="dd" class="wrapper-dropdown-1">
+                                <a href="#">Картон для упаковки и полиграфии</a>
+                                <ul class="dropdownlink">
+                                    <li><a href="#">Картон графический</a></li>
+                                    <li><a href="#">Картон переплетный</a></li>
+                                    <li><a href="#">Картон упаковочный</a></li>
+                                </ul>
+                            </div>
+                            <div id="dd" class="wrapper-dropdown-1">
+                                <a href="#">бумага и картон для производства гофрокартона</a>
+                                <ul class="dropdownlink">
+                                    <li><a href="#">Бумага для гофрирования</a></li>
+                                    <li><a href="#">Картон для плоских слоев</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <a href="#">упаковочная бумага</a>
+                            </div>
+                            <div>
+                                <a href="#">этикеточная бумага</a>
+                            </div>
+                            <div>
+                                <a href="#">целлюлоза/бхтмм</a>
+                            </div>
+                            <div>
+                                <a href="#">флафф-целлюлоза</a>
+                            </div>
+                            <div id="dd" class="wrapper-dropdown-1">
+                                <a href="#">специальные виды продукции</a>
+                                <ul class="dropdownlink">
+                                    <li><a href="#">Термобумага</a></li>
+                                    <li><a href="#">Эластичная нить</a></li>
+                                    <li><a href="#">Бумажная основа для обоев</a></li>
+                                    <li><a href="#">силиконизированная бумага</a></li>
+                                    <li><a href="#">Полимерный суперабсорбент</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <a href="#">п\э пленка</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map bounceInUp">
+                        <h1 class="htext">география продаж</h1>
+                        <img src="img/Group%2065.svg" alt="compass" class="info-img">
+                        <div class="map-points">
+                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ace8a9f30e5892d38744547037b4bd5405e5c0217e8e449b9ecf0582163a30552&amp;width=286&amp;height=396&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </div>
+                    </div>
+                    <div class="news bounceInUp">
+                        <img src="img/Group%2059.svg" alt="" class="news-img">
+                        <h1 class="htext">новости</h1>
+                        <div class="news-block">
+                            <p class="news-date">03.09.2018</p>
+                            <a href="#" class="newslink"><h2 class="news-text">в отделе складских продаж появился телефонный номер для бесплатных звонков:</h2></a>
+                            <p class="news-number">8 (800) 222-04-38</p>
+                        </div>
+                        <div class="news-block">
+                            <p class="news-date">03.09.2018</p>
+                            <a href="#" class="newslink"><h2 class="news-text">в отделе складских продаж появился телефонный номер для бесплатных звонков:</h2></a>
+                            <p class="news-number">8 (800) 222-04-38</p>
+                        </div>
+                        <div class="news-all">
+                            <buttom class="news-btn">все новости</buttom>
+                        </div>
+                    </div>
+                </div>
+                <div class="products" id="slidebox">
+                    <h1 class="htext text-goods line">все товары</h1>
+                    <div class="goods">
+                        <div class="prod bounceInUp">
+                            <a href="#" class="prod-link">
+                                <img src="img/1.png" alt="1" class="image">
+                            </a>
+                            <a href="#" class="prod-text">полиграфические виды бумаг</a>
+                        </div>
+                        <div class="prod bounceInUp">
+                            <a href="#" class="prod-link">
+                                <img src="img/2.png" alt="1" class="image">
+                            </a>
+                            <a href="#" class="prod-text">цветные бумаги</a>
+                        </div>
+                        <div class="prod bounceInUp">
+                            <a href="#" class="prod-link">
+                                <img src="img/3.png" alt="1" class="image">
+                            </a>
+                            <a href="#" class="prod-text">картон для упаковки</a>
+                        </div>
+                        <div class="prod bounceInUp">
+                            <a href="#" class="prod-link">
+                                <img src="img/4.png" alt="1" class="image">
+                            </a>
+                            <a href="#" class="prod-text">бумага и картон производства гофрокартон</a>
+                        </div>
+                        <div class="prod bounceInUp">
+                            <a href="#" class="prod-link">
+                                <img src="img/5.png" alt="1" class="image">
+                            </a>
+                            <a href="#" class="prod-text">упаковочная бумага</a>
+                        </div>
+                        <div class="prod bounceInUp">
+                            <a href="#" class="prod-link">
+                                <img src="img/6.png" alt="1" class="image">
+                            </a>
+                            <a href="#" class="prod-text">этикеточная бумага</a>
+                        </div>
+                        <div class="prod bounceInUp">
+                            <a href="#" class="prod-link">
+                                <img src="img/7.png" alt="1" class="image">
+                            </a>
+                            <a href="#" class="prod-text">целлюлоза/бхтим</a>
+                        </div>
+                        <div class="prod bounceInUp">
+                            <a href="#" class="prod-link">
+                                <img src="img/8.png" alt="1" class="image">
+                            </a>
+                            <a href="#" class="prod-text">флафф-целлюлоза</a>
+                        </div>
+                        <div class="prod bounceInUp">
+                            <a href="#" class="prod-link">
+                                <img src="img/9.png" alt="1" class="image">
+                            </a>
+                            <a href="#" class="prod-text">специальные виды продукции</a>
+                        </div>
+                        <div class="prod bounceInUp">
+                            <a href="#" class="prod-link">
+                                <img src="img/10.png" alt="1" class="image">
+                            </a>
+                            <a href="#" class="prod-text">п/э пленка</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="progress">
+                <div class="achievements">
+                    <div class="achiev">
+                        <img src="img/Group%2066.svg" alt="" class="achiev-img" width="52px" height="65px">
+                        <div class="img-txt">
+                            <span class="achiev-img-txt">
+                                <p class="p1">более</p>
+                                <p class="p2">25 лет</p>
+                            </span>
+                            <span>
+                                <p class="p3">в числе первых</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="achiev-txt">
+                        <p>Федеральные отраслевые награды и регулярное участие в специализированных выставках. Серьезные партнерские отношения с крупными российскими и зарубежными поставщиками. Положительная динамика роста поставок целлюлозно-бумажной продукции на рынок России и в страны СНГ.</p>
+                    </div>
+                </div>
+                <div class="achievements">
+                    <div class="achiev">
+                        <img src="img/Path%2042.svg" alt="" class="achiev-img" width="77px" height="68px">
+                        <div class="img-txt noflex">
+                            <span class="achiev-img-txt">
+                                <p class="p3">"балтийская целлюлоза"</p>
+                            </span>
+                            <span>
+                                <p class="p1">сегодня</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="achiev-txt">
+                        <p>– это не только постоянное расширение товарного ассортимента, но и усиление позиций на внешнем и внутреннем рынках. Мы успешно продолжаем развивать стратегическое партнерство с крупнейшими российскими и зарубежными производителями целлюлозно-бумажной продукции. Для нас важно, чтобы качество продукции и сервис оставались на том же высоком уровне, благодаря которому сотни крупных и средних компаний выбрали именно нас.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div class="gray">
+            <div class="footer-main">
+                <a href="index.html"><img src="img/Group%2050.svg" alt="" width="130px" height="110px" class="imgfoot"></a>
+                <div class="about">
+                    <p class="footer-txt">Крупнейший поставщик целлюлозно-бумажной продукции в России и странах СНГ</p>
+                    <div class="footer-contacts">
+                        <a href="tel:+78002220438" class="numberlink"><p class="footer-number">8 (800) 222-04-38</p></a>
+                        <a href="tel:+78003202870" class="numberlink"><p class="footer-number">+7 (812) 320-28-70</p></a>
+                        <p class="footer-address">СПб, ул.Подковырова, д.16/65</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-site ">
+                <p>Балтийская Целлюлоза, 2020</p>
+                <p>Сайт разработан в <a href="#" class="openb">OPenbridge</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="viewportchecker.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery('.bounceInUp').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceInUp',
+                offset: 10
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery('.bounceInDown').addClass("hidden").viewportChecker({
+                classToAdd: 'visible animated bounceInDown', 
+                offset: 10
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        function DropDown(el) {
+            this.dd = el;
+            this.initEvents();
+        }
+        DropDown.prototype = {
+            initEvents: function() {
+                var obj = this;
+                obj.dd.on('click', function(event) {
+                    $(this).toggleClass('active');
+                    event.stopPropagation();
+                });
+            }
+        }
+
+        $(function() {
+            var dd = new DropDown($('#dd'));
+            $(document).click(function() {
+                // all dropdowns
+                $('.wrapper-dropdown-1').removeClass('active');
+            });
+        });
+    </script>
+
+</body>
+</html>
